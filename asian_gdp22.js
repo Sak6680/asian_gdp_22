@@ -27,7 +27,7 @@ function sortData() {
 getData();
 async function getData() {
     try {
-        const res = await fetch("https://sak6680.github.io/gdp22/asian_gdp22.json");
+        const res = await fetch("https://sak6680.github.io/asian_gdp_22/asian_gdp22.json");
         if (res.status === 200) {
             jsonData = await res.json();
             sortData();
