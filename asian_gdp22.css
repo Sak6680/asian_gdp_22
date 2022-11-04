@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Title_area {
+    width: 1920px;
+    height: 70px;
+}
+#Title_area img {
+    height: auto;
+    width: 100px;
+    float: left;
+    padding: 5px;
+    position: absolute;
+    margin-left: 560px;
+}
+#Title_area h1 {
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+#time_area {
+    height: 50px;
+    width: 1920px;
+    text-align: center;
+}
+.time {
+    width: 480px;
+    font-size: 28px;
+    line-height: 40px;
+    color: rgb(21, 255, 0);
+    letter-spacing: 3px;
+}
+.statsItem {
+    display: block;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: absolute;
+    /* background: rgb(255, 0, 0); */
+}
+html {
+    font-family: 'Khand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(221, 221, 221);
+    background: rgb(42 35 35);
+}
+
+ul {
+    display: list-item;
+    list-style: none;
+    padding-left: 0;
+}
+
+img.icon {
+    vertical-align: top;
+    height: 70px;
+    width: 88px;
+    float: left;
+    border: 1px solid;
+}
+
+.rank {
+    text-align: center;
+    width: 50px;
+    font-size: 25px;
+    line-height: 40px;
+    float: left;
+    background: #ff000085;
+    animation-name: colorChanger;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    box-shadow: inset 0px 0px 9px 3px black;
+}
+@keyframes colorChanger {
+    0% {color: rgb(0, 255, 255) ;}
+    20% {color:  rgb(0, 255, 255) ;}
+
+    20.01% {color: rgb(251, 255, 0);}
+    40% {color: rgb(251, 255, 0);}
+
+    40.1% {color: rgb(0, 255, 255) ;}
+    60% {color: rgb(0, 255, 255) ;}
+
+    60.1% {color: rgb(251, 255, 0);}
+    80% {color: rgb(251, 255, 0);}
+
+    80.1% {color: rgb(0, 255, 255) ;}
+    100% {color: rgb(0, 255, 255) ;}
+}
+
+.country {
+    text-align: left;
+    width: 335px;
+    float: left;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.now {
+    text-align: right;
+    width: 245px;
+    float: left;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.now-pc {
+    text-align: left;
+    width: 130px;
+    margin-left: 10px;
+    float: left;
+    font-size: 25px;
+    line-height: 40px;
+    color: rgb(255, 0, 0);
+    /* background: aqua; */
+}
+.statsItem li {
+    margin-top: 0px;
+    height: 80px;
+    width: 480px;
+    display: block;
+    overflow: hidden;
+}
+.colom_one {
+    width: 480px;
+    float: left;
+    background: #181818;
+}
